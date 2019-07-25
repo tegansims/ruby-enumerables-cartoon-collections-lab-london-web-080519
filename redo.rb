@@ -1,5 +1,5 @@
 def roll_call_dwarves(array)
- 
+  roll_call_dwarves.each_with_index { |item, index | puts "#{index}. {item}" 
 end
 
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
@@ -26,8 +26,8 @@ long_planeteer_calls(short_words)
 assorted_words = ["two", "go", "industrious", "bop"]
 long_planeteer_calls(assorted_words)
 
-
 puts "## ------------------------- ##"
+
 def find_the_cheese(array)
 
 end
