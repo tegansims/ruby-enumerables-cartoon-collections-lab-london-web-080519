@@ -30,8 +30,8 @@ puts "## ------------------------- ##"
 
 def find_the_cheese(array)
   if array.include?("cheddar") { |x| p x}
-  elsif array.include?("gouda") { |x| p x}
-  elsif array.include?("camembert") { |x| p x}
+  elsif array.include?("gouda") { |x| puts x}
+  elsif array.include?("camembert") { |x| puts x}
 end
 end
 
