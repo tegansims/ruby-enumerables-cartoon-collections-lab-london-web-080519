@@ -29,7 +29,10 @@ p long_planeteer_calls(assorted_words)
 puts "## ------------------------- ##"
 
 def find_the_cheese(array)
-
+  if array.include?("cheddar") { |x| p x}
+  elsif array.include?("gouda") { |x| p x}
+  elsif array.include?("camembert") { |x| p x}
+end
 end
 
 snacks = ["crackers", "gouda", "thyme"]
