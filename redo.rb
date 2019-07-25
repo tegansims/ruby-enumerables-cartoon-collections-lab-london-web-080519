@@ -29,9 +29,9 @@ p long_planeteer_calls(assorted_words)
 puts "## ------------------------- ##"
 
 def find_the_cheese(array)
-  if array.include?("cheddar") { |x| p x}
-  elsif array.include?("gouda") { |x| puts x}
-  elsif array.include?("camembert") { |x| puts x}
+  if array.include?("cheddar") { |x| p "cheddar"}
+  elsif array.include?("gouda") { |x| puts "gouda"}
+  elsif array.include?("camembert") { |x| puts "camembert"}
 end
 end
 
