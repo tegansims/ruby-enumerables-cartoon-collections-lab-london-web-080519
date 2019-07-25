@@ -8,11 +8,11 @@ roll_call_dwarves(dwarves)
 puts "## ------------------------- ##"
 
 def summon_captain_planet(array)
-  array.map {|x| p "#{x.capitalize}!" }
+  array.map {|x| "#{x.capitalize}!" }
 end
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-summon_captain_planet(planeteer_calls)
+p summon_captain_planet(planeteer_calls)
 
 puts "## ------------------------- ##"
 
