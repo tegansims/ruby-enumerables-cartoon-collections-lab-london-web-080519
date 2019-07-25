@@ -30,7 +30,7 @@ puts "## ------------------------- ##"
 
 ef find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.each { |x| do
+  cheese_types.each { |x| 
     if array.include?(cheese_types[x])
       p cheese_types[x]
     end
