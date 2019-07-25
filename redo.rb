@@ -17,14 +17,14 @@ p summon_captain_planet(planeteer_calls)
 puts "## ------------------------- ##"
 
 def long_planeteer_calls(array)
-  
+  array.any? {|x| x.length >4 }
 end
 
 short_words = ["puff", "go", "two"]
-long_planeteer_calls(short_words)
+p long_planeteer_calls(short_words)
 
 assorted_words = ["two", "go", "industrious", "bop"]
-long_planeteer_calls(assorted_words)
+p long_planeteer_calls(assorted_words)
 
 puts "## ------------------------- ##"
 
