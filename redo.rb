@@ -28,11 +28,16 @@ p long_planeteer_calls(assorted_words)
 
 puts "## ------------------------- ##"
 
-def find_the_cheese(array)
-  if array.include?("cheddar") { |x| p "cheddar"}
-  elsif array.include?("gouda") { |x| puts "gouda"}
-  elsif array.include?("camembert") { |x| puts "camembert"}
-end
+ef find_the_cheese(array)
+  cheese_types = ["cheddar", "gouda", "camembert"]
+  
+    if array.include?(cheese_types[0])
+      p cheese_types[0]
+    elsif array.include?(cheese_types[1])
+      p cheese_types[1]
+    elsif array.include?(cheese_types[2])
+      p cheese_types[2]
+    end
 end
 
 snacks = ["crackers", "gouda", "thyme"]
