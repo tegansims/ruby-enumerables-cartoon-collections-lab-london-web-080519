@@ -28,7 +28,7 @@ p long_planeteer_calls(assorted_words)
 
 puts "## ------------------------- ##"
 
-ef find_the_cheese(array)
+def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.each { |x| 
     if array.include?(cheese_types[x])
